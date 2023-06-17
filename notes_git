@@ -3,3 +3,11 @@ git add
 git commit -m
 git push origin
 
+to make tokin:
+settings -> developer settinngs -> personal access tokens
+to add an ssh key:
+settings -> ssh and gpg keys -> new ssh key
+
+git remote -v
+git remote set-url origin git@github.com:leonbog1984/notes.git
+
