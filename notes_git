@@ -11,3 +11,11 @@ settings -> ssh and gpg keys -> new ssh key
 git remote -v
 git remote set-url origin git@github.com:leonbog1984/notes.git
 
+git branch
+git checkout branch_name
+git checkout -b branch_name1
+git checkout master
+git merge branch_name1
+git branch -d branch_name1
+git branch -D branch_name1 (force delete even if commit(s) was/were added)
+
