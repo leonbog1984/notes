@@ -21,6 +21,7 @@ git branch -D branch_name1 (force delete even if commit(s) was/were added)
 
 git chackout fc67b0f47f92d538f7c4d0c61ad50f698e2bef05 (switch to a certain commit)
 git reset --hard HEAD~1 (deletes one last commit, so moves HEAD to one commit backward)
+git push origin main --force (You need --force to switch HEAD on remote repository)
 git reset --soft HEAD~4 (deletes 4 previous commites, do not move HEAD anywhere)
 
 git push --set-upstream origin new_branch
@@ -32,4 +33,6 @@ git push --delete new_branch
 
 git log pretty=oneline
 git tag 1.0.0
+
+
 
